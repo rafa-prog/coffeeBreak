@@ -1,0 +1,82 @@
+#conteudo-de-fora{
+    background-color: #E2D1BB;
+    width: 100%;
+    
+}
+#card-item{
+    width: 95%;
+    height: 98%;
+}
+#mesa{
+   margin-right: 0.8%;
+   border-radius: 4px;
+}
+mat-card{
+    background:#744c24 ;
+    height: 100%;
+}
+mat-toolbar.mat-primary{
+   font-size:30px;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background-color: #D2B590;
+ }
+ img{
+   width: 25%;
+   height: 25%;
+ }
+ #adicionar{
+   height: 30px;
+   width: 30px;
+}
+#voltar{
+   height: 30px;
+   width: 30px;
+}
+ #btn-voltar{
+    width: 1%;
+    height: 4%;
+    margin-top: -1rem;
+    margin-left: 85rem;
+    padding-bottom: 2rem;
+ 
+ }
+ #input-valor{
+   margin-top: 0.1em;
+    text-align: center;
+ }
+
+ #btn-card{
+   margin-top: 0.1em;
+    background-color: #D2B590;
+ }
+ #content{
+   max-height: 65%;
+ }
+ #btn-incrementador{
+   margin-left: 1rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #D2B590;
+ }
+ #btn-decrementador{
+    margin-right: 1rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #D2B590;
+ }
+ ::ng-deep .mat-focused .mat-form-field-label {
+    /*change color of label*/
+    color: #E2D1BB !important;
+   }
+  
+   ::ng-deep.mat-form-field-underline {
+    /*change color of underline*/
+    background-color: #E2D1BB!important;
+  }
+  
+  ::ng-deep.mat-form-field-ripple {
+   /*change color of underline when focused*/
+   background-color: #E2D1BB!important;
+  }
